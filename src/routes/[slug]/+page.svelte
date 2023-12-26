@@ -8,6 +8,11 @@ let imagePath = `/assets/${data.path}/1.jpg`; // Set your image path here
   let fileContent =data.content
   let title=data.title
   
+  onMount(() => {
+    // This code will be executed when the component is mounted
+    // You can put the code here that you want to run when the component is first loaded
+    window.location.reload(true);
+  });
   const openLargeImage = () => {
     console.log("clicked")
     window.open(imagePath, "_blank");

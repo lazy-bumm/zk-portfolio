@@ -3,19 +3,26 @@
 
     export let name
     export let path
+    let linkUrl=`/${path}`
+    function handleClick() {
+    // Handle click event, e.g., navigate to the specified URL
+    window.location.href = linkUrl;
+  }
 </script>
 
 
 
 <div class="details-container color-container">
     <div class="article-container">
-      <img
      
+      <img
+      on:click={handleClick}
+        loading="eager"
         src={`./assets/${path}/1.jpg`}
         alt="Project 1"
         class="project-img"
-        on:click={()=>{goto(`/${path}`)}}
       />
+   
     </div>
     <h3 style="font-family: cursive; color:black" class="experience-sub-title project-title">{name}</h3>
 
