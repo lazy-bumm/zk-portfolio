@@ -10,7 +10,7 @@
 <div class="details-container color-container">
     <div class="article-container">
       <img
-      loading="eager"
+     
         src={`./assets/${path}/1.jpg`}
         alt="Project 1"
         class="project-img"
