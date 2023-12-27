@@ -82,7 +82,7 @@ if(r3==0 || r3==1)r3=2;
     <ul class="banner">
      
         <li class="active"><img class="zoom" src={`assets/${data.path}/1.jpg`}></li>
-        <li><img class="zoom" src={`assets/${data.path}/2.jpg`} ></li>
+        <li><img class=" zoom" src={`assets/${data.path}/2.jpg`} ></li>
         <li ><img class="mainGroupImage zoom" src={`assets/${data.path}/3.jpg`}></li>
         <li ><img class="mainGroupImage zoom" src={`assets/${data.path}/4.jpg`}></li>
       </ul><i class="icon-chevron-thin-left prev"></i><i class="icon-chevron-thin-right next"></i>
