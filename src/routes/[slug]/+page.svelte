@@ -64,14 +64,14 @@ if(r3==0 || r3==1)r3=2;
         <div class="welcome">
           <h1 style="margin-top: 2cm;"><strong>{data.title}</strong></h1>
           <h4>{data.medium}</h4>
-          <h4>{data.size} {r2} {r3}</h4>
+          <h4>{data.size}</h4>
           <p>{fileContent}</p>
         </div>
         <div class="photographer"><a target="_blank" rel="noopener" href={imagePath}><img class="zoom" on:click={openLargeImage} src={`/assets/${data.path}/1.jpg`}> </a></div>
       </div>
     </section>
 
-    
+     <br> <br> 
     <!-- <button on:click={()=>{
       console.log("kuch to ho")
       window.open("/")

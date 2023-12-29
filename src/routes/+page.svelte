@@ -113,8 +113,9 @@
 		<div>
 			<ul class="nav-links">
 				<li><a href="#about">About</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Artworks</a></li>
+				<li><a href="#experience">Journey</a></li>
+			
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
@@ -129,8 +130,9 @@
 			</div>
 			<div class="menu-links">
 				<li><a href="#about" on:click={toggleMenu}>About</a></li>
-				<li><a href="#experience" on:click={toggleMenu}>Experience</a></li>
-				<li><a href="#projects" on:click={toggleMenu}>Projects</a></li>
+        <li><a href="#projects" on:click={toggleMenu}>Artworks</a></li>
+				<li><a href="#experience" on:click={toggleMenu}>Journey</a></li>
+		
 				<li><a href="#contact" on:click={toggleMenu}>Contact</a></li>
 			</div>
 		</div>
@@ -142,7 +144,7 @@
 		<div class="section__text">
 			<p class="section__text__p1">Hello, I'm</p>
 			<h1 class="title">Zahawa Khan</h1>
-			<p class="section__text__p2" style="font-family:cursive">Artist</p>
+			<p class="section__text__p2" style="font-family:cursive">Welcome to  The world beyond imagination</p>
 			<div class="btn-container">
 				<button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1GzqvR0G0cjRpQvOGKAnUbiI1Q2wj2733/view')">
 					Download Business Card
@@ -174,7 +176,7 @@
 
 	<section id="projects">
 		<p class="section__text__p1">Browse My Recent</p>
-		<h1 class="title">Projects</h1>
+		<h1 class="title">Artworks</h1>
 		<div class="experience-details-container">
 			<div class="about-containers">
 				<div class="scrollable-container">
@@ -295,8 +297,9 @@ By -<b > Zahawa.<b>
 			<div class="nav-links-container">
 				<ul class="nav-links">
 					<li><a href="#about">About</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a href="#projects">Projects</a></li>
+          <li><a href="#projects">Artworks</a></li>
+					<li><a href="#experience">Journey</a></li>
+					
 					<li><a href="#contact">Contact</a></li>
         
 				</ul>
